@@ -8,3 +8,5 @@
 6. Invoke `./gradlew compileJava --no-watch-fs`
 7. Apply some change to `src/real-main/java/Main.java` (e.g. such one introducing a compilation error)
 8. Invoke `./gradlew compileJava --no-watch-fs` – now it's properly recompiled
+
+Gradle issue tracker link: https://github.com/gradle/gradle/issues/27373
